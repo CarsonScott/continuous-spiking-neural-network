@@ -1,5 +1,5 @@
-from utilities import logistic
 from random import sample, random
+import math
 
 def sign(x):
 	return 1 if x>0 else -1 if x<0 else 0
